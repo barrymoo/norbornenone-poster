@@ -1,0 +1,335 @@
+%\documentclass[landscape,a0b,final,a4resizeable]{a0poster}
+\documentclass[landscape,a0b,final]{a0poster}
+%\documentclass[portrait,a0b,final,a4resizeable]{a0poster}
+%\documentclass[portrait,a0b,final]{a0poster}
+%%% Option "a4resizeable" makes it possible ot resize the
+%   poster by the command: psresize -pa4 poster.ps poster-a4.ps
+%   For final printing, please remove option "a4resizeable" !!
+
+\usepackage{epsfig}
+\usepackage{multicol}
+\usepackage{pstricks,pst-grad}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Definition of some variables and colors
+%\renewcommand{\rho}{\varrho}
+%\renewcommand{\phi}{\varphi}
+\setlength{\columnsep}{3cm}
+\setlength{\columnseprule}{2mm}
+\setlength{\parindent}{0.0cm}
+
+%My commands
+\usepackage{overcite}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{bm}
+\newcommand{\mat}[1]{\mathbb{#1}} % mtpro special fonts
+\newcommand{\tensortwo}[1]{\mat{#1}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%               Background                     %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\background}[3]{
+  \newrgbcolor{cgradbegin}{#1}
+  \newrgbcolor{cgradend}{#2}
+  \psframe[fillstyle=gradient,gradend=cgradend,
+  gradbegin=cgradbegin,gradmidpoint=#3](0.,0.)(1.\textwidth,-1.\textheight)
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%                Poster                        %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newenvironment{poster}{
+  \begin{center}
+  \begin{minipage}[c]{0.98\textwidth}
+}{
+  \end{minipage} 
+  \end{center}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%                pcolumn                       %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newenvironment{pcolumn}[1]{
+  \begin{minipage}{#1\textwidth}
+  \begin{center}
+}{
+  \end{center}
+  \end{minipage}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%                pbox                          %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newrgbcolor{lcolor}{0. 0. 0.80}
+\newrgbcolor{gcolor1}{1. 1. 1.}
+\newrgbcolor{gcolor2}{.80 .80 1.}
+
+\newcommand{\pbox}[4]{
+\psshadowbox[#3]{
+\begin{minipage}[t][#2][t]{#1}
+#4
+\end{minipage}
+}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%                myfig                         %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \myfig - replacement for \figure
+% necessary, since in multicol-environment 
+% \figure won't work
+
+\newcommand{\myfig}[3][0]{
+\begin{center}
+  \vspace{1.5cm}
+  \includegraphics[width=#3\hsize,angle=#1]{#2}
+  \nobreak\medskip
+\end{center}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%                mycaption                     %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \mycaption - replacement for \caption
+% necessary, since in multicol-environment \figure and
+% therefore \caption won't work
+
+%\newcounter{figure}
+\setcounter{figure}{1}
+\newcommand{\mycaption}[1]{
+  \vspace{0.5cm}
+  \begin{quote}
+    {{\sc Figure} \arabic{figure}: #1}
+  \end{quote}
+  \vspace{1cm}
+  \stepcounter{figure}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Begin of Document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\newrgbcolor{lightblue}{0. 0. 0.80}
+\newrgbcolor{white}{1. 1. 1.}
+\newrgbcolor{whiteblue}{.80 .80 1.}
+\newrgbcolor{ubblue}{0.0157 0.102 0.608}
+\newrgbcolor{ubgray}{0.4 0.4 0.4}
+
+\background{1. 1. 1.}{1. 1. 1.}{0.5}
+
+\vspace*{2cm}
+
+\begin{poster}
+
+%%%%%%%%%%%%%%%%%%%%%
+%%% Header
+%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+\begin{pcolumn}{0.98}
+
+\pbox{0.98\textwidth}{}{linewidth=2mm,framearc=0.3,linecolor=ubblue,fillstyle=gradient,gradangle=0,gradbegin=ubgray,gradend=white,gradmidpoint=1.0,framesep=1em}{
+
+%%% Unisiegel
+\begin{minipage}[c][9cm][c]{0.1\textwidth}
+  \begin{center}
+    \includegraphics[width=20cm,angle=0]{figures/ublogo}
+  \end{center}
+\end{minipage}
+%%% Titel
+\begin{minipage}[c][9cm][c]{0.75\textwidth}
+  \begin{center}
+    {\sc \huge \ \ \ \ \ \ \ \ Analysis of Optical Activity in Terms of Bond and Lone-Pairs:}\\[5mm] 
+    {\sc \huge \ \ \ \ \ \ \ \ The Exceptionally Large Optical Rotation of Norborneneone\cite{Autschbach:2012k}}\\[5mm]
+    {\Large \ \ \ \ \ \ \ \ Barry Moore II, Monika Srebro, and Jochen Autschbach\\[7.5mm]
+    \ \ \ \ \ \ \ \ University at Buffalo, State University of New York, Buffalo, NY, 14260}
+  \end{center}
+\end{minipage}
+%%% GK-Logo
+\begin{minipage}[c][9cm][c]{0.01\textwidth}
+  \begin{center}
+      \includegraphics[width=15cm,angle=0]{figures/ro}
+  \end{center}
+\end{minipage}
+
+}
+\end{pcolumn}
+\end{center}
+
+\vspace*{2cm}
+
+%%%%%%%%%%%%%%%%%%%%%
+%%% Content
+%%%%%%%%%%%%%%%%%%%%%
+
+%%% Begin of Multicols-Enviroment
+\begin{multicols}{3}
+
+%%% Abstract
+\begin{center}\pbox{0.8\columnwidth}{}{linewidth=2mm,framearc=0.3,linecolor=ubblue,fillstyle=gradient,gradangle=0,gradbegin=white,gradend=ubgray,gradmidpoint=1.0,framesep=1em}{\begin{center} \Large \color{ubblue}{\bf{Abstract}}\end{center}}\end{center}
+\vspace{0.5cm}
+Norbornenone, which has both a C$=$O and a C$=$C chromophore in a rigid bicyclic hydrocarbon framework,
+exhibits optical rotation (OR) an order of magnitude larger than that of similar molecules with only one of these chromophores
+(e.g., $\alpha-$pinene). Its OR is also very sensitive to approximations in electronic structure calculations. The present study
+demonstrates a novel approach to interpret optical rotation using familiar concepts of chemical bonding, aided by first-principles
+calculations. A theoretical procedure is developed for analyzing the OR tensor components of a molecule in terms of individual
+bonds and lone pairs. The link between the chemist’s bond and quantum mechanics is provided by localized molecular orbitals
+obtained from density functional theory (DFT) calculations. Delocalization of $\pi$ orbitals is shown to play a crucial role in the
+large OR of norbornenone, as hinted by the DFT delocalization error inherent in many standard functionals and confirmed by
+detailed analysis. The OR contributions generated by the double bond in $\alpha-$pinene are even stronger than that of norbornenone.
+The isotropic average, observed in solution or in gas phase, is small as a result of cancellation of tensor components with opposite
+signs. The electronic coupling and delocalization of the C$=$C $\pi$ bond and the C$=$O oxygen $\pi$ lone pair in norbornenone
+selectively enhance one of the OR tensor components, resulting in the exceptionally large negative isotropic OR.
+
+
+%%% Functional Tuning
+\vspace{2cm}\begin{center}\pbox{0.8\columnwidth}{}{linewidth=2mm,framearc=0.3,linecolor=ubblue,fillstyle=gradient,gradangle=0,gradbegin=white,gradend=ubgray,gradmidpoint=1.0,framesep=1em}{\begin{center} \Large \color{ubblue}{\bf{Functional Tuning}}\end{center}}\end{center}\vspace{1.25cm}
+
+    We use the following 3-parameter expression for the inverse
+    interelectronic distance in the exchange functional
+    \cite{yanai_new_2004}:
+    %
+    \begin{equation}
+    \label{eq:r12-range-separation-alpha-beta-gamma}
+    \frac{1}{r_{12}} =
+    \frac{\alpha + \beta \operatorname{erf} (\gamma r_{12})}{r_{12}} + 
+    \frac{1-[\alpha + \beta \operatorname{erf} (\gamma r_{12})]}{r_{12}} 
+    \end{equation}
+    %
+    where the first term on the right-hand side is used for the long-range
+    HF part. In Equation (\ref{eq:r12-range-separation-alpha-beta-gamma}),
+    $\gamma$ is the range-separation parameter, $\alpha$ is the HF
+    fraction at very small interelectronic distances, and $\alpha+\beta$
+    quantifies the fraction of HF exchange in the asymptotic limit at
+    large interelectronic separations. A global hybrid such as B3LYP
+    corresponds to $\beta = 0$, with $\alpha$ being the HF fraction of
+    exchange in the functional.
+
+    We consider a range-separated hybrid variant of the PBE functional
+    which satisfies the correct asymptotic behavior of the XC
+    potential. It follows that $\alpha + \beta = 1$. Further, the
+    functional is tuned to satisfy
+    $-{\varepsilon}^{\text{HOMO}}(N)=\text{IP}(N)$ subject to the $\alpha
+    + \beta = 1$ constraint. Following Reference
+    \citen{kuritz_charge-transfer-like_2011}, we minimize
+    %
+    \begin{equation}
+    J^2 =
+    \sum_{i=0}^{1} [\varepsilon^{\text{HOMO}}(N+i)+\text{IP}(N+i)]^2 
+    \label{eq:J2-criterion}
+    \end{equation}
+    %
+    to satisfy the IP condition simultaneously for the system with $N$ and
+    $N+1$ electrons, where $\text{IP}(N)= E(N)-E(N-1)$ is calculated as a
+    difference of total energies. This optimization is performed in the
+    $\alpha = 1-\beta$ vs.\ $\gamma$ plane, which is the reason why the
+    procedure is referred to as a `two-dimensional' tuning here. The
+    tuning was accomplished as follows. Hartree-Fock molecular orbitals
+    were calculated for the neutral ($N$ electrons), anion ($N+1$), and
+    cation ($N-1$) systems. These molecular orbital vectors were then used
+    as initial guesses for DFT calculations with the PBE0 global hybrid
+    functional. The PBE0 molecular orbital vectors were used as input for
+    calculations with $\alpha$ between 0 and 0.5 and $\gamma$ between 0
+    and 0.5 on the tuning grid. MOs from calculations with $\alpha = 0.5$
+    and a given $\gamma$ were used as initial guesses for calculations
+    with $\alpha$ ranging from 0.6 to 0.8 and the same value of $\gamma$
+    in order to improve convergence of the self-consistent field (SCF)
+    procedure.  Finally, for sets $\{\alpha,\beta = 1-\alpha,\gamma\}$
+    satisfying the IP condition, we investigate the DFT delocalization
+    error, quantified by the curvature of $E(N)$.
+    %%% Figures:
+    \begin{center}
+        % \myfig[rotation in degrees]{epsfile}{stretching parameter}
+    \myfig[0]{figures/norbornenone-tuning-correct}{1.0}
+    \mycaption{a) Contour plot of $J^2$ as a function of
+    $\alpha$ and $\gamma$. The thick orange line corresponds to $J^2
+    \approx 0$. b) Energy of norbornenone as a function
+    of fractional electron number, ${\Delta}N$, relative to neutral
+    system $({\Delta}N = 0$) for tuned LC-PBE0-\# parameterizations. The
+    numerical values in parentheses correspond to $({\Delta}N)^2$
+    coefficients of quadratic fits to $E(N)$ in the electron-deficient
+    and electron-rich regime, respectively $({\Delta}N < 0$, ${\Delta}N
+    > 0)$. The inset shows the $E(N)$ behavior in the electron-rich
+    regime.}
+    \end{center}
+
+%%% Analysis Protocol
+\vspace{2cm}\begin{center}\pbox{0.8\columnwidth}{}{linewidth=2mm,framearc=0.1,linecolor=ubblue,fillstyle=gradient,gradangle=0,gradbegin=white,gradend=ubgray,gradmidpoint=1.0,framesep=1em}{\begin{center} \Large \color{ubblue}{\bf{Analysis Protocol}}\end{center}}\end{center}\vspace{1.25cm}
+
+    %%% Figures:
+    \begin{center}
+        % \myfig[rotation in degrees]{epsfile}{stretching parameter}
+    \myfig[0]{figures/flowchart}{1.0}
+    \mycaption{Flowchart for OR analysis. CNC = center of nuclear charges,
+    PAS = principal axis system of $\tilde{\tensortwo{B}}$.}
+    \end{center}
+
+%%% Results and Discussion
+\vspace{2cm}\begin{center}\pbox{0.8\columnwidth}{}{linewidth=2mm,framearc=0.1,linecolor=ubblue,fillstyle=gradient,gradangle=0,gradbegin=white,gradend=ubgray,gradmidpoint=1.0,framesep=1em}{\begin{center} \Large \color{ubblue}{\bf{Results and Discussion}}\end{center}}\end{center}\vspace{1.25cm}
+
+    Electron delocalization plays a paramount role in the optical rotation
+    (OR) of norbornenone. This conclusion is evident from an analysis in
+    terms of individual `chemist's orbitals' (localized
+    MOs). Delocalization of the C=C $\pi$ bond over the C=O group, and
+    delocalization of the carbonyl oxygen $\pi$ lone-pair orbital over the
+    C=C moiety, result in a significantly enhanced component of the OR
+    tensor in the direction of the C=O bond, $\beta_{33}$. Contributions
+    from the bridging C--C $\sigma$ bonds are also very important, as one
+    might expect if delocalization between the C=C and C=O $\pi$ orbitals
+    is significant. The strong enhancement of the negative $\beta_{33}$ is
+    not balanced by other tensor components which results in a large
+    negative isotropic optical rotation of norbornenone. A comparison with
+    $\alpha$-pinene, which has a more localized C=C $\pi$ bond as a
+    composition of the corresponding `natural LMO' revealed (magnitudes below $<$ 0.4
+    on adjacent and distant carbons
+    clearly shows how geometry and electronic structure effects in
+    norbornenone all cooperate to yield an enhancement of $\beta_{33}$.
+
+    It is clear that one can dig much deeper in an attempt to fully
+    rationalize the magnitudes and the signs of all orbital contributions
+    to the optical activity of norbornenone, $\alpha$-pinene and countless
+    other molecules. The present work is intended to provide an initial
+    assessment of the analysis technique and to address long standing
+    problems with OR calculations for norbornenone. Further, we
+    hope to have demonstrated that with suitable theoretical tools it is
+    possible to gain an in-depth understanding of optical rotation. We
+    expect to be able to provide additional examples in subsequent
+    publications and, in particular, consider the optical rotation created
+    by chiral $\sigma$-frameworks.
+    %%% Figures:
+    \begin{center}
+        % \myfig[rotation in degrees]{epsfile}{stretching parameter}
+    \myfig[0]{figures/norbornenone-pinene-comparison}{1.0}
+    \mycaption{Static chiroptical response tensor $\tilde{\tensortwo{B}}$
+        for norbornenone and $\alpha$-pinene, and principal
+        components. Yellow and blue indicate negative and positive optical
+        rotation for a given direction.  Surfaces were scaled to 30 pm per
+        atomic unit. LC-PBE0* functional. Values in parentheses are
+        diagonal components of $\tensortwo{\beta}$.}
+    \end{center}
+
+%%% Acknowledgements
+\vspace{2cm}\begin{center}\pbox{0.8\columnwidth}{}{linewidth=2mm,framearc=0.1,linecolor=ubblue,fillstyle=gradient,gradangle=0,gradbegin=white,gradend=ubgray,gradmidpoint=1.0,framesep=1em}{\begin{center} \Large \color{ubblue}{\bf{Acknowledgements}}\end{center}}\end{center}\vspace{1.25cm}
+    
+     This research has been supported by the National Science
+     Foundation, Grant No. CHE 0952253 to J.A. M.S. is grateful
+     for financial support from the Foundation for Polish Science
+     (START scholarship) as well as from the Polish Ministry of
+     Science and Higher Education (Mobility Plus program). We
+     thank the Center for Computational Research at the University
+     at Buffalo for supporting our research.
+      
+%%% References
+\bibliographystyle{achemso}
+\bibliography{autschbach,myjournals,misc,dft,cdrefs,response,cd}
+
+\end{multicols}
+
+\end{poster}
+
+\end{document}
+
