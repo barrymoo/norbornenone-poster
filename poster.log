@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Arch Linux) (format=latex 2013.5.6)  21 MAY 2013 14:35
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Arch Linux) (format=latex 2013.5.6)  21 MAY 2013 16:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -343,7 +343,7 @@ LaTeX Font Info:    ... okay on input line 116.
 File: figures/ublogo.eps Graphic file (type eps)
 
 <figures/ublogo.eps>
-Overfull \hbox (263.75412pt too wide) in paragraph at lines 165--165
+Overfull \hbox (263.44037pt too wide) in paragraph at lines 165--165
  [] 
  []
 
@@ -358,12 +358,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 File: figures/nsf4.eps Graphic file (type eps)
  <figures/nsf4.eps>
-Overfull \hbox (401.1912pt too wide) in paragraph at lines 165--165
+Overfull \hbox (401.15984pt too wide) in paragraph at lines 165--165
  |  []
  []
 
 
-Overfull \hbox (11.84991pt too wide) in paragraph at lines 165--166
+Overfull \hbox (11.78587pt too wide) in paragraph at lines 165--166
  [][] 
  []
 
@@ -455,12 +455,12 @@ File: figures/norbornenone-pinene-comparison.eps Graphic file (type eps)
  <figures/norbornenone-pinene-comparison.eps>
 (./poster.bbl
 
-LaTeX Font Warning: Font shape `OT1/cmr/m/sl' in size <27.5> not available
+LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <27.5> not available
 (Font)              size <29.86> substituted on input line 5.
 
 
-LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <27.5> not available
-(Font)              size <29.86> substituted on input line 9.
+LaTeX Font Warning: Font shape `OT1/cmr/m/sl' in size <27.5> not available
+(Font)              size <29.86> substituted on input line 6.
 
 ) [1
 
@@ -473,10 +473,10 @@ LaTeX Font Warning: Size substitutions with differences
 Here is how much of TeX's memory you used:
  4283 strings out of 493489
  63692 string characters out of 3146916
- 194606 words of memory out of 3000000
+ 194653 words of memory out of 3000000
  7533 multiletter control sequences out of 15000+200000
  21602 words of font info for 80 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 37i,13n,52p,316b,687s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,13n,52p,316b,677s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on poster.dvi (1 page, 18916 bytes).
+Output written on poster.dvi (1 page, 18892 bytes).

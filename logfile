@@ -57,7 +57,7 @@ For additional information on amsmath, use the `?' option.
 (/usr/share/texmf-dist/tex/latex/tools/bm.sty)
 No file poster.aux.
 <figures/ublogo.eps>
-Overfull \hbox (263.75412pt too wide) in paragraph at lines 165--165
+Overfull \hbox (263.44037pt too wide) in paragraph at lines 165--165
  [] 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd)
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd)
@@ -66,10 +66,10 @@ LaTeX Warning: Citation `Autschbach:2012k' on page 1 undefined on input line 16
 5.
 
 <figures/nsf4.eps>
-Overfull \hbox (401.1912pt too wide) in paragraph at lines 165--165
+Overfull \hbox (401.15984pt too wide) in paragraph at lines 165--165
  |  []
 
-Overfull \hbox (11.84991pt too wide) in paragraph at lines 165--166
+Overfull \hbox (11.78587pt too wide) in paragraph at lines 165--166
  [][] 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <27.5> not available
@@ -175,24 +175,16 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  )
 (see the transcript file for additional information)
-Output written on poster.dvi (1 page, 18368 bytes).
+Output written on poster.dvi (1 page, 18300 bytes).
 Transcript written on poster.log.
 This is BibTeX, Version 0.99d (TeX Live 2012/Arch Linux)
 The top-level auxiliary file: poster.aux
 The style file: achemso.bst
-I couldn't open database file cd.bib
----line 6 of file poster.aux
- : \bibdata{autschbach,myjournals,misc,dft,cdrefs,response,cd
- :                                                           }
-I'm skipping whatever remains of this command
-Database file #1: autschbach.bib
-Warning--string name "jctc" is undefined
---line 1789 of file autschbach.bib
-Database file #2: myjournals.bib
-Database file #3: misc.bib
-Database file #4: dft.bib
-Database file #5: cdrefs.bib
-Database file #6: response.bib
+Database file #1: poster.bib
+I was expecting an "="---line 40 of file poster.bib
+ :  functional 
+ :             Theory},
+I'm skipping whatever remains of this entry
 (There was 1 error message)
 This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Arch Linux)
  restricted \write18 enabled.
@@ -252,7 +244,7 @@ For additional information on amsmath, use the `?' option.
 (/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty)
 (/usr/share/texmf-dist/tex/latex/tools/bm.sty) (./poster.aux)
 <figures/ublogo.eps>
-Overfull \hbox (263.75412pt too wide) in paragraph at lines 165--165
+Overfull \hbox (263.44037pt too wide) in paragraph at lines 165--165
  [] 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd)
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd)
@@ -261,10 +253,10 @@ LaTeX Warning: Citation `Autschbach:2012k' on page 1 undefined on input line 16
 5.
 
 <figures/nsf4.eps>
-Overfull \hbox (401.1912pt too wide) in paragraph at lines 165--165
+Overfull \hbox (401.15984pt too wide) in paragraph at lines 165--165
  |  []
 
-Overfull \hbox (11.84991pt too wide) in paragraph at lines 165--166
+Overfull \hbox (11.78587pt too wide) in paragraph at lines 165--166
  [][] 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <27.5> not available
@@ -354,12 +346,12 @@ LaTeX Font Warning: Font shape `OT1/cmr/m/sc' in size <27.5> not available
 <figures/flowchart.eps> <figures/norbornenone-pinene-comparison.eps>
 (./poster.bbl
 
-LaTeX Font Warning: Font shape `OT1/cmr/m/sl' in size <27.5> not available
+LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <27.5> not available
 (Font)              size <29.86> substituted on input line 5.
 
 
-LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <27.5> not available
-(Font)              size <29.86> substituted on input line 9.
+LaTeX Font Warning: Font shape `OT1/cmr/m/sl' in size <27.5> not available
+(Font)              size <29.86> substituted on input line 6.
 
 ) [1] (./poster.aux)
 
@@ -374,7 +366,7 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  )
 (see the transcript file for additional information)
-Output written on poster.dvi (1 page, 18920 bytes).
+Output written on poster.dvi (1 page, 18896 bytes).
 Transcript written on poster.log.
 This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Arch Linux)
  restricted \write18 enabled.
@@ -434,14 +426,14 @@ For additional information on amsmath, use the `?' option.
 (/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty)
 (/usr/share/texmf-dist/tex/latex/tools/bm.sty) (./poster.aux)
 <figures/ublogo.eps>
-Overfull \hbox (263.75412pt too wide) in paragraph at lines 165--165
+Overfull \hbox (263.44037pt too wide) in paragraph at lines 165--165
  [] 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd)
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd) <figures/nsf4.eps>
-Overfull \hbox (401.1912pt too wide) in paragraph at lines 165--165
+Overfull \hbox (401.15984pt too wide) in paragraph at lines 165--165
  |  []
 
-Overfull \hbox (11.84991pt too wide) in paragraph at lines 165--166
+Overfull \hbox (11.78587pt too wide) in paragraph at lines 165--166
  [][] 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <27.5> not available
@@ -523,12 +515,12 @@ LaTeX Font Warning: Font shape `OT1/cmr/m/sc' in size <27.5> not available
 <figures/flowchart.eps> <figures/norbornenone-pinene-comparison.eps>
 (./poster.bbl
 
-LaTeX Font Warning: Font shape `OT1/cmr/m/sl' in size <27.5> not available
+LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <27.5> not available
 (Font)              size <29.86> substituted on input line 5.
 
 
-LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <27.5> not available
-(Font)              size <29.86> substituted on input line 9.
+LaTeX Font Warning: Font shape `OT1/cmr/m/sl' in size <27.5> not available
+(Font)              size <29.86> substituted on input line 6.
 
 ) [1] (./poster.aux)
 
@@ -537,10 +529,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  )
 (see the transcript file for additional information)
-Output written on poster.dvi (1 page, 18916 bytes).
+Output written on poster.dvi (1 page, 18892 bytes).
 Transcript written on poster.log.
 This is dvips(k) 5.992 Copyright 2012 Radical Eye Software (www.radicaleye.com)
-' TeX output 2013.05.21:1435' -> poster.ps
+' TeX output 2013.05.21:1639' -> poster.ps
 </usr/share/texmf/dvips/base/tex.pro>
 </usr/share/texmf/dvips/config/alt-rule.pro>
 </usr/share/texmf-dist/dvips/pstricks/pstricks.pro>
@@ -551,9 +543,9 @@ This is dvips(k) 5.992 Copyright 2012 Radical Eye Software (www.radicaleye.com)
 </usr/share/texmf/dvips/base/texps.pro>
 </usr/share/texmf/dvips/base/special.pro>
 </usr/share/texmf/dvips/base/color.pro>. 
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb>
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
