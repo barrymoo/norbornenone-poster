@@ -26,6 +26,8 @@
 \newcommand{\mat}[1]{\mathbb{#1}} % mtpro special fonts
 \newcommand{\tensortwo}[1]{\mat{#1}}
 \newcommand{\bindent}{\ \ \ \ }
+\newcommand{\vect}[1]{\bm{#1}} %% boldface vectors
+\newcommand{\feb}[1]{\ensuremath{\beta^i_{#1 #1} (\vect{r})}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%               Background                     %%%
@@ -318,12 +320,13 @@ selectively enhance one of the OR tensor components, resulting in the exceptiona
     \begin{center}
         % \myfig[rotation in degrees]{epsfile}{stretching parameter}
     \myfig[0]{figures/norbornenone-pinene-comparison}{1.0}
-    \mycaption{Static chiroptical response tensor $\tilde{\tensortwo{B}}$
-        for norbornenone and $\alpha$-pinene, and principal
-        components. Yellow and blue indicate negative and positive optical
-        rotation for a given direction.  Surfaces were scaled to 30 pm per
-        atomic unit. LC-PBE0* functional. Values in parentheses are
-        diagonal components of $\tensortwo{\beta}$.}
+    \mycaption{Top: Isosurfaces of the $\pi$(C=C) LMO (0.1 au),
+    and their contributions to $\tensortwo{\beta}$ tensor for
+    norbornenone and $\alpha$-pinene. Bottom: Isosurfaces (0.04 au) of
+    \feb{1} and \feb{3} for $\pi$(C=C), and approximate numerical
+    integrations within isosurfaces centered at the C=C and C=O
+    moieties, respectively. LC-PBE0* functional.}
+    \label{fig:norbornenone-pinene-comparison}
     \end{center}
 
 %%% Acknowledgements

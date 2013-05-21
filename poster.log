@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Arch Linux) (format=latex 2013.5.6)  21 MAY 2013 16:39
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Arch Linux) (format=latex 2013.5.6)  21 MAY 2013 16:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -328,117 +328,117 @@ LaTeX Info: Redefining \bm on input line 204.
 ) (./poster.aux)
 \openout1 = `poster.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
 File: figures/ublogo.eps Graphic file (type eps)
 
 <figures/ublogo.eps>
-Overfull \hbox (263.44037pt too wide) in paragraph at lines 165--165
+Overfull \hbox (263.44037pt too wide) in paragraph at lines 167--167
  [] 
  []
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 165.
+LaTeX Font Info:    Try loading font information for U+msa on input line 167.
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 165.
+LaTeX Font Info:    Try loading font information for U+msb on input line 167.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 File: figures/nsf4.eps Graphic file (type eps)
  <figures/nsf4.eps>
-Overfull \hbox (401.15984pt too wide) in paragraph at lines 165--165
+Overfull \hbox (401.15984pt too wide) in paragraph at lines 167--167
  |  []
  []
 
 
-Overfull \hbox (11.78587pt too wide) in paragraph at lines 165--166
+Overfull \hbox (11.78587pt too wide) in paragraph at lines 167--168
  [][] 
  []
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <27.5> not available
-(Font)              size <29.86> substituted on input line 181.
+(Font)              size <29.86> substituted on input line 183.
 
-LaTeX Font Info:    Calculating math sizes for size <27.5> on input line 181.
+LaTeX Font Info:    Calculating math sizes for size <27.5> on input line 183.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <19.24991> not available
-(Font)              size <20.74> substituted on input line 181.
+(Font)              size <20.74> substituted on input line 183.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <13.75> not available
-(Font)              size <14.4> substituted on input line 181.
+(Font)              size <14.4> substituted on input line 183.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <27.5> not available
-(Font)              size <29.86> substituted on input line 181.
+(Font)              size <29.86> substituted on input line 183.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <19.24991> not available
-(Font)              size <20.74> substituted on input line 181.
+(Font)              size <20.74> substituted on input line 183.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <13.75> not available
-(Font)              size <14.4> substituted on input line 181.
+(Font)              size <14.4> substituted on input line 183.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <27.5> not available
-(Font)              size <29.86> substituted on input line 181.
+(Font)              size <29.86> substituted on input line 183.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <19.24991> not available
-(Font)              size <20.74> substituted on input line 181.
+(Font)              size <20.74> substituted on input line 183.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <13.75> not available
-(Font)              size <14.4> substituted on input line 181.
+(Font)              size <14.4> substituted on input line 183.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <27.5> not available
-(Font)              size <29.86> substituted on input line 181.
+(Font)              size <29.86> substituted on input line 183.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <19.24991> not available
-(Font)              size <20.74> substituted on input line 181.
+(Font)              size <20.74> substituted on input line 183.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <13.75> not available
-(Font)              size <14.4> substituted on input line 181.
+(Font)              size <14.4> substituted on input line 183.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <27.5> not available
-(Font)              size <29.86> substituted on input line 181.
+(Font)              size <29.86> substituted on input line 183.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <19.24991> not available
-(Font)              size <20.74> substituted on input line 181.
+(Font)              size <20.74> substituted on input line 183.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <13.75> not available
-(Font)              size <14.4> substituted on input line 181.
+(Font)              size <14.4> substituted on input line 183.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <27.5> not available
-(Font)              size <29.86> substituted on input line 181.
+(Font)              size <29.86> substituted on input line 183.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <19.24991> not available
-(Font)              size <20.74> substituted on input line 181.
+(Font)              size <20.74> substituted on input line 183.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <13.75> not available
-(Font)              size <14.4> substituted on input line 181.
+(Font)              size <14.4> substituted on input line 183.
 
 Missing character: There is no â in font cmr17!
 Missing character: There is no € in font cmr17!
@@ -447,7 +447,7 @@ File: figures/norbornenone-tuning-correct.eps Graphic file (type eps)
 <figures/norbornenone-tuning-correct.eps>
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/sc' in size <27.5> not available
-(Font)              size <29.86> substituted on input line 261.
+(Font)              size <29.86> substituted on input line 263.
 
 File: figures/flowchart.eps Graphic file (type eps)
 <figures/flowchart.eps>
@@ -471,12 +471,12 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 4283 strings out of 493489
- 63692 string characters out of 3146916
- 194653 words of memory out of 3000000
- 7533 multiletter control sequences out of 15000+200000
+ 4286 strings out of 493489
+ 63735 string characters out of 3146916
+ 195753 words of memory out of 3000000
+ 7536 multiletter control sequences out of 15000+200000
  21602 words of font info for 80 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 37i,13n,52p,316b,677s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,13n,52p,316b,729s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on poster.dvi (1 page, 18892 bytes).
+Output written on poster.dvi (1 page, 19004 bytes).
