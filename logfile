@@ -149,16 +149,16 @@ LaTeX Warning: Citation `yanai_new_2004' on page 1 undefined on input line 201.
 
 
 LaTeX Warning: Reference `eq:r12-range-separation-alpha-beta-gamma' on page 1 u
-ndefined on input line 211.
+ndefined on input line 209.
 
 
 LaTeX Warning: Citation `kuritz_charge-transfer-like_2011' on page 1 undefined 
-on input line 225.
+on input line 223.
 
 <figures/norbornenone-tuning-correct.eps>
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/sc' in size <27.5> not available
-(Font)              size <29.86> substituted on input line 265.
+(Font)              size <29.86> substituted on input line 261.
 
 <figures/flowchart.eps> <figures/norbornenone-pinene-comparison.eps>
 No file poster.bbl.
@@ -344,12 +344,12 @@ LaTeX Warning: Citation `yanai_new_2004' on page 1 undefined on input line 201.
 
 
 LaTeX Warning: Citation `kuritz_charge-transfer-like_2011' on page 1 undefined 
-on input line 225.
+on input line 223.
 
 <figures/norbornenone-tuning-correct.eps>
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/sc' in size <27.5> not available
-(Font)              size <29.86> substituted on input line 265.
+(Font)              size <29.86> substituted on input line 261.
 
 <figures/flowchart.eps> <figures/norbornenone-pinene-comparison.eps>
 (./poster.bbl
@@ -518,7 +518,7 @@ LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <13.75> not available
 <figures/norbornenone-tuning-correct.eps>
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/sc' in size <27.5> not available
-(Font)              size <29.86> substituted on input line 265.
+(Font)              size <29.86> substituted on input line 261.
 
 <figures/flowchart.eps> <figures/norbornenone-pinene-comparison.eps>
 (./poster.bbl
@@ -537,10 +537,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  )
 (see the transcript file for additional information)
-Output written on poster.dvi (1 page, 18920 bytes).
+Output written on poster.dvi (1 page, 18916 bytes).
 Transcript written on poster.log.
 This is dvips(k) 5.992 Copyright 2012 Radical Eye Software (www.radicaleye.com)
-' TeX output 2013.05.21:1430' -> poster.ps
+' TeX output 2013.05.21:1435' -> poster.ps
 </usr/share/texmf/dvips/base/tex.pro>
 </usr/share/texmf/dvips/config/alt-rule.pro>
 </usr/share/texmf-dist/dvips/pstricks/pstricks.pro>
