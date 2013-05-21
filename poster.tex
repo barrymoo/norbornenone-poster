@@ -25,6 +25,7 @@
 \usepackage{bm}
 \newcommand{\mat}[1]{\mathbb{#1}} % mtpro special fonts
 \newcommand{\tensortwo}[1]{\mat{#1}}
+\newcommand{\bindent}{\ \ \ \ }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%               Background                     %%%
@@ -85,7 +86,7 @@
 
 \newcommand{\myfig}[3][0]{
 \begin{center}
-  \vspace{1.5cm}
+  \vspace{0.25cm}
   \includegraphics[width=#3\hsize,angle=#1]{#2}
   \nobreak\medskip
 \end{center}}
@@ -100,11 +101,11 @@
 %\newcounter{figure}
 \setcounter{figure}{1}
 \newcommand{\mycaption}[1]{
-  \vspace{0.5cm}
+  \vspace{0.25cm}
   \begin{quote}
     {{\sc Figure} \arabic{figure}: #1}
   \end{quote}
-  \vspace{1cm}
+  \vspace{0.25cm}
   \stepcounter{figure}
 }
 
@@ -122,7 +123,7 @@
 
 \background{1. 1. 1.}{1. 1. 1.}{0.5}
 
-\vspace*{2cm}
+\vspace*{1cm} %Controls white space on top of poster
 
 \begin{poster}
 
@@ -133,34 +134,39 @@
 \begin{pcolumn}{0.98}
 
 \pbox{0.98\textwidth}{}{linewidth=2mm,framearc=0.3,linecolor=ubblue,fillstyle=gradient,gradangle=0,gradbegin=ubgray,gradend=white,gradmidpoint=1.0,framesep=1em}{
-
-%%% Unisiegel
-\begin{minipage}[c][9cm][c]{0.1\textwidth}
-  \begin{center}
-    \includegraphics[width=20cm,angle=0]{figures/ublogo}
-  \end{center}
-\end{minipage}
-%%% Titel
-\begin{minipage}[c][9cm][c]{0.75\textwidth}
-  \begin{center}
-    {\sc \huge \ \ \ \ \ \ \ \ Analysis of Optical Activity in Terms of Bond and Lone-Pairs:}\\[5mm] 
-    {\sc \huge \ \ \ \ \ \ \ \ The Exceptionally Large Optical Rotation of Norborneneone\cite{Autschbach:2012k}}\\[5mm]
-    {\Large \ \ \ \ \ \ \ \ Barry Moore II, Monika Srebro, and Jochen Autschbach\\[7.5mm]
-    \ \ \ \ \ \ \ \ University at Buffalo, State University of New York, Buffalo, NY, 14260}
-  \end{center}
-\end{minipage}
-%%% GK-Logo
-\begin{minipage}[c][9cm][c]{0.01\textwidth}
-  \begin{center}
-      \includegraphics[width=15cm,angle=0]{figures/ro}
-  \end{center}
-\end{minipage}
-
+    %%% Unisiegel
+    \begin{minipage}[c][9cm][c]{0.1\linewidth}
+    \begin{center}
+        \includegraphics[width=20cm,angle=0]{figures/ublogo}
+    \end{center}
+    \end{minipage}
+    %%% Titel
+    \begin{minipage}[c][9cm][c]{0.75\textwidth}
+    \begin{center}
+        %hspace commands control centering of title above poster. You may need to mess with these depending on how long your title is.
+        \hspace{5cm}
+        {\sc \huge Analysis of Optical Activity in Terms of Bond and Lone-Pairs:}\\[5mm] 
+        \hspace{5cm}
+        {\sc \huge The Exceptionally Large Optical Rotation of Norborneneone\cite{Autschbach:2012k}}\\[5mm]
+        \hspace{5cm}
+        {\Large Barry Moore II, Monika Srebro, and Jochen Autschbach\\[7.5mm]
+        \hspace{5cm}
+        University at Buffalo, State University of New York, Buffalo, NY, 14260}
+    \end{center}
+    \end{minipage}
+    %%% GK-Logo
+    \begin{minipage}[c][9cm][c]{0.01\linewidth}
+    \begin{flushright}
+        %This hspace puts the nsf symbol at the far right of the poster banner. May need to change this but don't remove the '*'
+        \hspace*{5cm}
+        \includegraphics[width=10cm,angle=0]{figures/nsf4}
+    \end{flushright}
+    \end{minipage}
 }
 \end{pcolumn}
 \end{center}
 
-\vspace*{2cm}
+\vspace*{0.1cm} %Spacing between banner and text
 
 %%%%%%%%%%%%%%%%%%%%%
 %%% Content
@@ -170,9 +176,9 @@
 \begin{multicols}{3}
 
 %%% Abstract
-\begin{center}\pbox{0.8\columnwidth}{}{linewidth=2mm,framearc=0.3,linecolor=ubblue,fillstyle=gradient,gradangle=0,gradbegin=white,gradend=ubgray,gradmidpoint=1.0,framesep=1em}{\begin{center} \Large \color{ubblue}{\bf{Abstract}}\end{center}}\end{center}
-\vspace{0.5cm}
-Norbornenone, which has both a C$=$O and a C$=$C chromophore in a rigid bicyclic hydrocarbon framework,
+\begin{center}\pbox{0.8\columnwidth}{}{linewidth=2mm,framearc=0.3,linecolor=ubblue,fillstyle=gradient,gradangle=0,gradbegin=white,gradend=ubgray,gradmidpoint=1.0,framesep=1em}{\begin{center} \Large \color{ubblue}{\bf{Abstract}}\end{center}}\end{center} %Makes the Abstract banner 
+\vspace{0.25cm}
+\large \bindent Norbornenone, which has both a C$=$O and a C$=$C chromophore in a rigid bicyclic hydrocarbon framework,
 exhibits optical rotation (OR) an order of magnitude larger than that of similar molecules with only one of these chromophores
 (e.g., $\alpha-$pinene). Its OR is also very sensitive to approximations in electronic structure calculations. The present study
 demonstrates a novel approach to interpret optical rotation using familiar concepts of chemical bonding, aided by first-principles
@@ -185,21 +191,22 @@ The isotropic average, observed in solution or in gas phase, is small as a resul
 signs. The electronic coupling and delocalization of the C$=$C $\pi$ bond and the C$=$O oxygen $\pi$ lone pair in norbornenone
 selectively enhance one of the OR tensor components, resulting in the exceptionally large negative isotropic OR.
 
-
 %%% Functional Tuning
-\vspace{2cm}\begin{center}\pbox{0.8\columnwidth}{}{linewidth=2mm,framearc=0.3,linecolor=ubblue,fillstyle=gradient,gradangle=0,gradbegin=white,gradend=ubgray,gradmidpoint=1.0,framesep=1em}{\begin{center} \Large \color{ubblue}{\bf{Functional Tuning}}\end{center}}\end{center}\vspace{1.25cm}
+\vspace{0.25cm}
+\begin{center}\pbox{0.8\columnwidth}{}{linewidth=2mm,framearc=0.3,linecolor=ubblue,fillstyle=gradient,gradangle=0,gradbegin=white,gradend=ubgray,gradmidpoint=1.0,framesep=1em}{\begin{center} \Large \color{ubblue}{\bf{Functional Tuning}}\end{center}}\end{center}
+\vspace{0.25cm}
 
-    We use the following 3-parameter expression for the inverse
+    \bindent We use the following 3-parameter expression for the inverse
     interelectronic distance in the exchange functional
     \cite{yanai_new_2004}:
-    %
+        \vspace{-1.8cm}
     \begin{equation}
+        \vspace{-1.8cm}
     \label{eq:r12-range-separation-alpha-beta-gamma}
     \frac{1}{r_{12}} =
     \frac{\alpha + \beta \operatorname{erf} (\gamma r_{12})}{r_{12}} + 
     \frac{1-[\alpha + \beta \operatorname{erf} (\gamma r_{12})]}{r_{12}} 
     \end{equation}
-    %
     where the first term on the right-hand side is used for the long-range
     HF part. In Equation (\ref{eq:r12-range-separation-alpha-beta-gamma}),
     $\gamma$ is the range-separation parameter, $\alpha$ is the HF
@@ -209,20 +216,20 @@ selectively enhance one of the OR tensor components, resulting in the exceptiona
     corresponds to $\beta = 0$, with $\alpha$ being the HF fraction of
     exchange in the functional.
 
-    We consider a range-separated hybrid variant of the PBE functional
+    \bindent We consider a range-separated hybrid variant of the PBE functional
     which satisfies the correct asymptotic behavior of the XC
     potential. It follows that $\alpha + \beta = 1$. Further, the
     functional is tuned to satisfy
     $-{\varepsilon}^{\text{HOMO}}(N)=\text{IP}(N)$ subject to the $\alpha
     + \beta = 1$ constraint. Following Reference
     \citen{kuritz_charge-transfer-like_2011}, we minimize
-    %
+        \vspace{-1.8cm}
     \begin{equation}
+        \vspace{-1.8cm}
     J^2 =
     \sum_{i=0}^{1} [\varepsilon^{\text{HOMO}}(N+i)+\text{IP}(N+i)]^2 
     \label{eq:J2-criterion}
-    \end{equation}
-    %
+    \end{equation} 
     to satisfy the IP condition simultaneously for the system with $N$ and
     $N+1$ electrons, where $\text{IP}(N)= E(N)-E(N-1)$ is calculated as a
     difference of total energies. This optimization is performed in the
@@ -243,9 +250,10 @@ selectively enhance one of the OR tensor components, resulting in the exceptiona
     error, quantified by the curvature of $E(N)$.
     %%% Figures:
     \begin{center}
+    \vspace*{1cm}
         % \myfig[rotation in degrees]{epsfile}{stretching parameter}
     \myfig[0]{figures/norbornenone-tuning-correct}{1.0}
-    \mycaption{a) Contour plot of $J^2$ as a function of
+    \mycaption{ a) Contour plot of $J^2$ as a function of
     $\alpha$ and $\gamma$. The thick orange line corresponds to $J^2
     \approx 0$. b) Energy of norbornenone as a function
     of fractional electron number, ${\Delta}N$, relative to neutral
@@ -258,7 +266,12 @@ selectively enhance one of the OR tensor components, resulting in the exceptiona
     \end{center}
 
 %%% Analysis Protocol
-\vspace{2cm}\begin{center}\pbox{0.8\columnwidth}{}{linewidth=2mm,framearc=0.1,linecolor=ubblue,fillstyle=gradient,gradangle=0,gradbegin=white,gradend=ubgray,gradmidpoint=1.0,framesep=1em}{\begin{center} \Large \color{ubblue}{\bf{Analysis Protocol}}\end{center}}\end{center}\vspace{1.25cm}
+\vspace{1.0cm}
+\begin{center}
+\pbox{0.8\columnwidth}{}{linewidth=2mm,framearc=0.1,linecolor=ubblue,fillstyle=gradient,gradangle=0,gradbegin=white,gradend=ubgray,gradmidpoint=1.0,framesep=1em}
+{\begin{center} \Large \color{ubblue}{\bf{Analysis Protocol}}\end{center}}
+\end{center}
+\vspace{1.0cm}
 
     %%% Figures:
     \begin{center}
@@ -267,11 +280,16 @@ selectively enhance one of the OR tensor components, resulting in the exceptiona
     \mycaption{Flowchart for OR analysis. CNC = center of nuclear charges,
     PAS = principal axis system of $\tilde{\tensortwo{B}}$.}
     \end{center}
-
+\vspace{5cm}    
 %%% Results and Discussion
-\vspace{2cm}\begin{center}\pbox{0.8\columnwidth}{}{linewidth=2mm,framearc=0.1,linecolor=ubblue,fillstyle=gradient,gradangle=0,gradbegin=white,gradend=ubgray,gradmidpoint=1.0,framesep=1em}{\begin{center} \Large \color{ubblue}{\bf{Results and Discussion}}\end{center}}\end{center}\vspace{1.25cm}
+\vspace{0.25cm}
+\begin{center}
+\pbox{0.8\columnwidth}{}{linewidth=2mm,framearc=0.1,linecolor=ubblue,fillstyle=gradient,gradangle=0,gradbegin=white,gradend=ubgray,gradmidpoint=1.0,framesep=1em}
+{\begin{center} \Large \color{ubblue}{\bf{Results and Discussion}}\end{center}}
+\end{center}
+\vspace{0.25cm}
 
-    Electron delocalization plays a paramount role in the optical rotation
+    \bindent Electron delocalization plays a paramount role in the optical rotation
     (OR) of norbornenone. This conclusion is evident from an analysis in
     terms of individual `chemist's orbitals' (localized
     MOs). Delocalization of the C=C $\pi$ bond over the C=O group, and
@@ -289,7 +307,7 @@ selectively enhance one of the OR tensor components, resulting in the exceptiona
     clearly shows how geometry and electronic structure effects in
     norbornenone all cooperate to yield an enhancement of $\beta_{33}$.
 
-    It is clear that one can dig much deeper in an attempt to fully
+    \bindent It is clear that one can dig much deeper in an attempt to fully
     rationalize the magnitudes and the signs of all orbital contributions
     to the optical activity of norbornenone, $\alpha$-pinene and countless
     other molecules. The present work is intended to provide an initial
@@ -313,7 +331,12 @@ selectively enhance one of the OR tensor components, resulting in the exceptiona
     \end{center}
 
 %%% Acknowledgements
-\vspace{2cm}\begin{center}\pbox{0.8\columnwidth}{}{linewidth=2mm,framearc=0.1,linecolor=ubblue,fillstyle=gradient,gradangle=0,gradbegin=white,gradend=ubgray,gradmidpoint=1.0,framesep=1em}{\begin{center} \Large \color{ubblue}{\bf{Acknowledgements}}\end{center}}\end{center}\vspace{1.25cm}
+\vspace{0.25cm}
+\begin{center}
+\pbox{0.8\columnwidth}{}{linewidth=2mm,framearc=0.1,linecolor=ubblue,fillstyle=gradient,gradangle=0,gradbegin=white,gradend=ubgray,gradmidpoint=1.0,framesep=1em}
+{\begin{center} \Large \color{ubblue}{\bf{Acknowledgements}}\end{center}}
+\end{center}
+\vspace{0.25cm}
     
      This research has been supported by the National Science
      Foundation, Grant No. CHE 0952253 to J.A. M.S. is grateful
@@ -328,8 +351,6 @@ selectively enhance one of the OR tensor components, resulting in the exceptiona
 \bibliography{autschbach,myjournals,misc,dft,cdrefs,response,cd}
 
 \end{multicols}
-
 \end{poster}
-
 \end{document}
 
