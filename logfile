@@ -57,115 +57,193 @@ For additional information on amsmath, use the `?' option.
 (/usr/share/texmf-dist/tex/latex/tools/bm.sty)
 No file poster.aux.
 <figures/ublogo.eps>
-Overfull \hbox (263.44037pt too wide) in paragraph at lines 167--167
+Overfull \hbox (263.44037pt too wide) in paragraph at lines 168--168
  [] 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd)
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd)
 
 LaTeX Warning: Citation `Autschbach:2012k' on page 1 undefined on input line 16
-7.
+8.
 
 <figures/nsf4.eps>
-Overfull \hbox (401.15984pt too wide) in paragraph at lines 167--167
+Overfull \hbox (401.15984pt too wide) in paragraph at lines 168--168
  |  []
 
-Overfull \hbox (11.78587pt too wide) in paragraph at lines 167--168
+Overfull \hbox (11.78587pt too wide) in paragraph at lines 168--169
  [][] 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <27.5> not available
-(Font)              size <29.86> substituted on input line 183.
+(Font)              size <29.86> substituted on input line 184.
+
+<figures/structures-sos.eps>
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/sc' in size <27.5> not available
+(Font)              size <29.86> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <19.24991> not available
-(Font)              size <20.74> substituted on input line 183.
+(Font)              size <20.74> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <13.75> not available
-(Font)              size <14.4> substituted on input line 183.
+(Font)              size <14.4> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <27.5> not available
-(Font)              size <29.86> substituted on input line 183.
+(Font)              size <29.86> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <19.24991> not available
-(Font)              size <20.74> substituted on input line 183.
+(Font)              size <20.74> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <13.75> not available
-(Font)              size <14.4> substituted on input line 183.
+(Font)              size <14.4> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <27.5> not available
-(Font)              size <29.86> substituted on input line 183.
+(Font)              size <29.86> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <19.24991> not available
-(Font)              size <20.74> substituted on input line 183.
+(Font)              size <20.74> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <13.75> not available
-(Font)              size <14.4> substituted on input line 183.
+(Font)              size <14.4> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <27.5> not available
-(Font)              size <29.86> substituted on input line 183.
+(Font)              size <29.86> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <19.24991> not available
-(Font)              size <20.74> substituted on input line 183.
+(Font)              size <20.74> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <13.75> not available
-(Font)              size <14.4> substituted on input line 183.
+(Font)              size <14.4> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <27.5> not available
-(Font)              size <29.86> substituted on input line 183.
+(Font)              size <29.86> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <19.24991> not available
-(Font)              size <20.74> substituted on input line 183.
+(Font)              size <20.74> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <13.75> not available
-(Font)              size <14.4> substituted on input line 183.
+(Font)              size <14.4> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <27.5> not available
-(Font)              size <29.86> substituted on input line 183.
+(Font)              size <29.86> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <19.24991> not available
-(Font)              size <20.74> substituted on input line 183.
+(Font)              size <20.74> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <13.75> not available
-(Font)              size <14.4> substituted on input line 183.
+(Font)              size <14.4> substituted on input line 192.
 
 
-LaTeX Warning: Citation `yanai_new_2004' on page 1 undefined on input line 203.
+LaTeX Warning: Citation `yanai_new_2004' on page 1 undefined on input line 202.
 
 
 
 LaTeX Warning: Reference `eq:r12-range-separation-alpha-beta-gamma' on page 1 u
-ndefined on input line 211.
+ndefined on input line 210.
 
 
 LaTeX Warning: Citation `kuritz_charge-transfer-like_2011' on page 1 undefined 
-on input line 225.
+on input line 224.
 
-<figures/norbornenone-tuning-correct.eps>
+<figures/norbornenone-tuning-correct.eps> <figures/flowchart.eps>
 
-LaTeX Font Warning: Font shape `OT1/cmr/m/sc' in size <27.5> not available
-(Font)              size <29.86> substituted on input line 263.
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <> not available
+(Font)              size <5> substituted on input line 286.
 
-<figures/flowchart.eps> <figures/norbornenone-pinene-comparison.eps>
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <0.7> not available
+(Font)              size <5> substituted on input line 286.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <0.5> not available
+(Font)              size <5> substituted on input line 286.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <> not available
+(Font)              size <5> substituted on input line 286.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <0.7> not available
+(Font)              size <5> substituted on input line 286.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <0.5> not available
+(Font)              size <5> substituted on input line 286.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <> not available
+(Font)              size <5> substituted on input line 286.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <0.7> not available
+(Font)              size <5> substituted on input line 286.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <0.5> not available
+(Font)              size <5> substituted on input line 286.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <> not available
+(Font)              size <5> substituted on input line 286.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <0.7> not available
+(Font)              size <5> substituted on input line 286.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <0.5> not available
+(Font)              size <5> substituted on input line 286.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <> not available
+(Font)              size <5> substituted on input line 286.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <0.7> not available
+(Font)              size <5> substituted on input line 286.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <0.5> not available
+(Font)              size <5> substituted on input line 286.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <> not available
+(Font)              size <5> substituted on input line 286.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <0.7> not available
+(Font)              size <5> substituted on input line 286.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <0.5> not available
+(Font)              size <5> substituted on input line 286.
+
+<figures/scheme-pi-lp-comparison.eps>
+
+LaTeX Warning: Reference `eq:amos-eq-tddft' on page 1 undefined on input line 3
+08.
+
+<figures/norbornenone-pinene-comparison.eps>
 No file poster.bbl.
 [1] (./poster.aux)
 
 LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 2.36pt have occurred.
+(Font)              up to 4.5pt have occurred.
 
 
 LaTeX Warning: There were undefined references.
@@ -175,7 +253,7 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  )
 (see the transcript file for additional information)
-Output written on poster.dvi (1 page, 18408 bytes).
+Output written on poster.dvi (1 page, 16688 bytes).
 Transcript written on poster.log.
 This is BibTeX, Version 0.99d (TeX Live 2012/Arch Linux)
 The top-level auxiliary file: poster.aux
@@ -244,107 +322,180 @@ For additional information on amsmath, use the `?' option.
 (/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty)
 (/usr/share/texmf-dist/tex/latex/tools/bm.sty) (./poster.aux)
 <figures/ublogo.eps>
-Overfull \hbox (263.44037pt too wide) in paragraph at lines 167--167
+Overfull \hbox (263.44037pt too wide) in paragraph at lines 168--168
  [] 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd)
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd)
 
 LaTeX Warning: Citation `Autschbach:2012k' on page 1 undefined on input line 16
-7.
+8.
 
 <figures/nsf4.eps>
-Overfull \hbox (401.15984pt too wide) in paragraph at lines 167--167
+Overfull \hbox (401.15984pt too wide) in paragraph at lines 168--168
  |  []
 
-Overfull \hbox (11.78587pt too wide) in paragraph at lines 167--168
+Overfull \hbox (11.78587pt too wide) in paragraph at lines 168--169
  [][] 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <27.5> not available
-(Font)              size <29.86> substituted on input line 183.
+(Font)              size <29.86> substituted on input line 184.
+
+<figures/structures-sos.eps>
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/sc' in size <27.5> not available
+(Font)              size <29.86> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <19.24991> not available
-(Font)              size <20.74> substituted on input line 183.
+(Font)              size <20.74> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <13.75> not available
-(Font)              size <14.4> substituted on input line 183.
+(Font)              size <14.4> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <27.5> not available
-(Font)              size <29.86> substituted on input line 183.
+(Font)              size <29.86> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <19.24991> not available
-(Font)              size <20.74> substituted on input line 183.
+(Font)              size <20.74> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <13.75> not available
-(Font)              size <14.4> substituted on input line 183.
+(Font)              size <14.4> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <27.5> not available
-(Font)              size <29.86> substituted on input line 183.
+(Font)              size <29.86> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <19.24991> not available
-(Font)              size <20.74> substituted on input line 183.
+(Font)              size <20.74> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <13.75> not available
-(Font)              size <14.4> substituted on input line 183.
+(Font)              size <14.4> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <27.5> not available
-(Font)              size <29.86> substituted on input line 183.
+(Font)              size <29.86> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <19.24991> not available
-(Font)              size <20.74> substituted on input line 183.
+(Font)              size <20.74> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <13.75> not available
-(Font)              size <14.4> substituted on input line 183.
+(Font)              size <14.4> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <27.5> not available
-(Font)              size <29.86> substituted on input line 183.
+(Font)              size <29.86> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <19.24991> not available
-(Font)              size <20.74> substituted on input line 183.
+(Font)              size <20.74> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <13.75> not available
-(Font)              size <14.4> substituted on input line 183.
+(Font)              size <14.4> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <27.5> not available
-(Font)              size <29.86> substituted on input line 183.
+(Font)              size <29.86> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <19.24991> not available
-(Font)              size <20.74> substituted on input line 183.
+(Font)              size <20.74> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <13.75> not available
-(Font)              size <14.4> substituted on input line 183.
+(Font)              size <14.4> substituted on input line 192.
 
 
-LaTeX Warning: Citation `yanai_new_2004' on page 1 undefined on input line 203.
+LaTeX Warning: Citation `yanai_new_2004' on page 1 undefined on input line 202.
 
 
 
 LaTeX Warning: Citation `kuritz_charge-transfer-like_2011' on page 1 undefined 
-on input line 225.
+on input line 224.
 
-<figures/norbornenone-tuning-correct.eps>
+<figures/norbornenone-tuning-correct.eps> <figures/flowchart.eps>
 
-LaTeX Font Warning: Font shape `OT1/cmr/m/sc' in size <27.5> not available
-(Font)              size <29.86> substituted on input line 263.
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <> not available
+(Font)              size <5> substituted on input line 286.
 
-<figures/flowchart.eps> <figures/norbornenone-pinene-comparison.eps>
-(./poster.bbl
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <0.7> not available
+(Font)              size <5> substituted on input line 286.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <0.5> not available
+(Font)              size <5> substituted on input line 286.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <> not available
+(Font)              size <5> substituted on input line 286.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <0.7> not available
+(Font)              size <5> substituted on input line 286.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <0.5> not available
+(Font)              size <5> substituted on input line 286.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <> not available
+(Font)              size <5> substituted on input line 286.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <0.7> not available
+(Font)              size <5> substituted on input line 286.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <0.5> not available
+(Font)              size <5> substituted on input line 286.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <> not available
+(Font)              size <5> substituted on input line 286.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <0.7> not available
+(Font)              size <5> substituted on input line 286.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <0.5> not available
+(Font)              size <5> substituted on input line 286.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <> not available
+(Font)              size <5> substituted on input line 286.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <0.7> not available
+(Font)              size <5> substituted on input line 286.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <0.5> not available
+(Font)              size <5> substituted on input line 286.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <> not available
+(Font)              size <5> substituted on input line 286.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <0.7> not available
+(Font)              size <5> substituted on input line 286.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <0.5> not available
+(Font)              size <5> substituted on input line 286.
+
+<figures/scheme-pi-lp-comparison.eps>
+<figures/norbornenone-pinene-comparison.eps> (./poster.bbl
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <27.5> not available
 (Font)              size <29.86> substituted on input line 5.
@@ -356,7 +507,7 @@ LaTeX Font Warning: Font shape `OT1/cmr/m/sl' in size <27.5> not available
 ) [1] (./poster.aux)
 
 LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 2.36pt have occurred.
+(Font)              up to 4.5pt have occurred.
 
 
 LaTeX Warning: There were undefined references.
@@ -366,7 +517,7 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  )
 (see the transcript file for additional information)
-Output written on poster.dvi (1 page, 19004 bytes).
+Output written on poster.dvi (1 page, 17268 bytes).
 Transcript written on poster.log.
 This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Arch Linux)
  restricted \write18 enabled.
@@ -426,94 +577,167 @@ For additional information on amsmath, use the `?' option.
 (/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty)
 (/usr/share/texmf-dist/tex/latex/tools/bm.sty) (./poster.aux)
 <figures/ublogo.eps>
-Overfull \hbox (263.44037pt too wide) in paragraph at lines 167--167
+Overfull \hbox (263.44037pt too wide) in paragraph at lines 168--168
  [] 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd)
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd) <figures/nsf4.eps>
-Overfull \hbox (401.15984pt too wide) in paragraph at lines 167--167
+Overfull \hbox (401.15984pt too wide) in paragraph at lines 168--168
  |  []
 
-Overfull \hbox (11.78587pt too wide) in paragraph at lines 167--168
+Overfull \hbox (11.78587pt too wide) in paragraph at lines 168--169
  [][] 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <27.5> not available
-(Font)              size <29.86> substituted on input line 183.
+(Font)              size <29.86> substituted on input line 184.
+
+<figures/structures-sos.eps>
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/sc' in size <27.5> not available
+(Font)              size <29.86> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <19.24991> not available
-(Font)              size <20.74> substituted on input line 183.
+(Font)              size <20.74> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <13.75> not available
-(Font)              size <14.4> substituted on input line 183.
+(Font)              size <14.4> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <27.5> not available
-(Font)              size <29.86> substituted on input line 183.
+(Font)              size <29.86> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <19.24991> not available
-(Font)              size <20.74> substituted on input line 183.
+(Font)              size <20.74> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <13.75> not available
-(Font)              size <14.4> substituted on input line 183.
+(Font)              size <14.4> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <27.5> not available
-(Font)              size <29.86> substituted on input line 183.
+(Font)              size <29.86> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <19.24991> not available
-(Font)              size <20.74> substituted on input line 183.
+(Font)              size <20.74> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <13.75> not available
-(Font)              size <14.4> substituted on input line 183.
+(Font)              size <14.4> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <27.5> not available
-(Font)              size <29.86> substituted on input line 183.
+(Font)              size <29.86> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <19.24991> not available
-(Font)              size <20.74> substituted on input line 183.
+(Font)              size <20.74> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <13.75> not available
-(Font)              size <14.4> substituted on input line 183.
+(Font)              size <14.4> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <27.5> not available
-(Font)              size <29.86> substituted on input line 183.
+(Font)              size <29.86> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <19.24991> not available
-(Font)              size <20.74> substituted on input line 183.
+(Font)              size <20.74> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <13.75> not available
-(Font)              size <14.4> substituted on input line 183.
+(Font)              size <14.4> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <27.5> not available
-(Font)              size <29.86> substituted on input line 183.
+(Font)              size <29.86> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <19.24991> not available
-(Font)              size <20.74> substituted on input line 183.
+(Font)              size <20.74> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <13.75> not available
-(Font)              size <14.4> substituted on input line 183.
+(Font)              size <14.4> substituted on input line 192.
 
-<figures/norbornenone-tuning-correct.eps>
+<figures/norbornenone-tuning-correct.eps> <figures/flowchart.eps>
 
-LaTeX Font Warning: Font shape `OT1/cmr/m/sc' in size <27.5> not available
-(Font)              size <29.86> substituted on input line 263.
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <> not available
+(Font)              size <5> substituted on input line 286.
 
-<figures/flowchart.eps> <figures/norbornenone-pinene-comparison.eps>
-(./poster.bbl
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <0.7> not available
+(Font)              size <5> substituted on input line 286.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <0.5> not available
+(Font)              size <5> substituted on input line 286.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <> not available
+(Font)              size <5> substituted on input line 286.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <0.7> not available
+(Font)              size <5> substituted on input line 286.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <0.5> not available
+(Font)              size <5> substituted on input line 286.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <> not available
+(Font)              size <5> substituted on input line 286.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <0.7> not available
+(Font)              size <5> substituted on input line 286.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <0.5> not available
+(Font)              size <5> substituted on input line 286.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <> not available
+(Font)              size <5> substituted on input line 286.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <0.7> not available
+(Font)              size <5> substituted on input line 286.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <0.5> not available
+(Font)              size <5> substituted on input line 286.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <> not available
+(Font)              size <5> substituted on input line 286.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <0.7> not available
+(Font)              size <5> substituted on input line 286.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <0.5> not available
+(Font)              size <5> substituted on input line 286.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <> not available
+(Font)              size <5> substituted on input line 286.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <0.7> not available
+(Font)              size <5> substituted on input line 286.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <0.5> not available
+(Font)              size <5> substituted on input line 286.
+
+<figures/scheme-pi-lp-comparison.eps>
+<figures/norbornenone-pinene-comparison.eps> (./poster.bbl
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <27.5> not available
 (Font)              size <29.86> substituted on input line 5.
@@ -525,14 +749,14 @@ LaTeX Font Warning: Font shape `OT1/cmr/m/sl' in size <27.5> not available
 ) [1] (./poster.aux)
 
 LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 2.36pt have occurred.
+(Font)              up to 4.5pt have occurred.
 
  )
 (see the transcript file for additional information)
-Output written on poster.dvi (1 page, 19004 bytes).
+Output written on poster.dvi (1 page, 17268 bytes).
 Transcript written on poster.log.
 This is dvips(k) 5.992 Copyright 2012 Radical Eye Software (www.radicaleye.com)
-' TeX output 2013.05.21:1652' -> poster.ps
+' TeX output 2013.05.22:1002' -> poster.ps
 </usr/share/texmf/dvips/base/tex.pro>
 </usr/share/texmf/dvips/config/alt-rule.pro>
 </usr/share/texmf-dist/dvips/pstricks/pstricks.pro>
@@ -547,13 +771,14 @@ This is dvips(k) 5.992 Copyright 2012 Radical Eye Software (www.radicaleye.com)
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb>
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>[1
-<./figures/ublogo.eps><./figures/nsf4.eps>
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>[1
+<./figures/ublogo.eps><./figures/nsf4.eps><./figures/structures-sos.eps>
 <./figures/norbornenone-tuning-correct.eps>
 dvips:  expected to see %%EndBinary at end of data; struggling on
-<./figures/flowchart.eps><./figures/norbornenone-pinene-comparison.eps>] 
+<./figures/flowchart.eps><./figures/scheme-pi-lp-comparison.eps>
+<./figures/norbornenone-pinene-comparison.eps>] 
