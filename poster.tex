@@ -9,6 +9,7 @@
 \usepackage{epsfig}
 \usepackage{multicol}
 \usepackage{pstricks,pst-grad}
+\usepackage{braket}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Definition of some variables and colors
@@ -29,6 +30,7 @@
 \newcommand{\bindent}{\ \ \ \ }
 \newcommand{\vect}[1]{\bm{#1}} %% boldface vectors
 \newcommand{\feb}[1]{\ensuremath{\beta^i_{#1 #1} (\vect{r})}}
+\renewcommand{\Im}{\operatorname{Im}} %% Re and Im as it is the default
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%               Background                     %%%
@@ -188,8 +190,7 @@
     and molar optical rotations (in usual units) for $\lambda = 589.3$
     nm. b) SOS molar optical rotation of norbornenone
     (PBE0/aug-cc-pVDZ).  Experimental solution-phase OR and the result
-    from a direct calculation of the OR. Note the slow convergence of
-    the SOS.}
+    from a direct calculation of the OR.}
     \end{center}
 
 %%% Functional Tuning
@@ -278,11 +279,10 @@
     \begin{equation}
     \normalsize
     \label{eq:amos-eq-tddft}
-    \beta(\omega) = - \Im \sum_{u = x,y,z} \sum_i n_i \int \big ( 
-    \frac{\D \varphi_i}{\D E_u(+\omega)} + \frac{\D \varphi_i}{\D
-    E_u(-\omega)} \big )^*
-    \frac{\D \varphi_i}{\D B_u (0)} dV := \sum_i \int
-    \feb{u} dV
+    \beta(\omega) = - \frac{2}{3} \Im \sum_{u = x,y,z} \sum_i
+    \Braket{\frac{\D \varphi_i}{\D E_u(+\omega)} + \frac{\D \varphi_i}{\D
+    E_u(-\omega)}|\frac{\D \varphi_i}{\D B_u (0)}} 
+    := \frac{1}{3} \sum_{u = x,y,z} \sum_i \int \feb{u} dV
     \end{equation}
 \vspace{1cm} %SPECIAL SPACER
 %%% Results and Discussion

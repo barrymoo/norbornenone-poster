@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Arch Linux) (format=latex 2013.5.6)  22 MAY 2013 10:02
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Arch Linux) (format=latex 2013.5.6)  22 MAY 2013 10:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -250,6 +250,7 @@ Package: pst-grad 2004/07/15 package wrapper for pst-grad.tex (hv)
 `pst-grad' v1.06, 2006/11/27 (tvz,dg,hv))
 File: pst-grad.tex 2006/11/27 1.06 `pst-grad' (tvz)
 )
+(/usr/share/texmf-dist/tex/latex/braket/braket.sty)
 (/usr/share/texmf-dist/tex/latex/cite/overcite.sty
 Package: overcite 1999/04/23  v 3.8
 )
@@ -328,123 +329,123 @@ LaTeX Info: Redefining \bm on input line 204.
 ) (./poster.aux)
 \openout1 = `poster.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
 File: figures/ublogo.eps Graphic file (type eps)
 
 <figures/ublogo.eps>
-Overfull \hbox (263.44037pt too wide) in paragraph at lines 168--168
+Overfull \hbox (263.44037pt too wide) in paragraph at lines 170--170
  [] 
  []
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 168.
+LaTeX Font Info:    Try loading font information for U+msa on input line 170.
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 168.
+LaTeX Font Info:    Try loading font information for U+msb on input line 170.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 File: figures/nsf4.eps Graphic file (type eps)
  <figures/nsf4.eps>
-Overfull \hbox (401.15984pt too wide) in paragraph at lines 168--168
+Overfull \hbox (401.15984pt too wide) in paragraph at lines 170--170
  |  []
  []
 
 
-Overfull \hbox (11.78587pt too wide) in paragraph at lines 168--169
+Overfull \hbox (11.78587pt too wide) in paragraph at lines 170--171
  [][] 
  []
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <27.5> not available
-(Font)              size <29.86> substituted on input line 184.
+(Font)              size <29.86> substituted on input line 186.
 
 File: figures/structures-sos.eps Graphic file (type eps)
 <figures/structures-sos.eps>
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/sc' in size <27.5> not available
-(Font)              size <29.86> substituted on input line 192.
+(Font)              size <29.86> substituted on input line 193.
 
-LaTeX Font Info:    Calculating math sizes for size <27.5> on input line 192.
+LaTeX Font Info:    Calculating math sizes for size <27.5> on input line 193.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <19.24991> not available
-(Font)              size <20.74> substituted on input line 192.
+(Font)              size <20.74> substituted on input line 193.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <13.75> not available
-(Font)              size <14.4> substituted on input line 192.
+(Font)              size <14.4> substituted on input line 193.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <27.5> not available
-(Font)              size <29.86> substituted on input line 192.
+(Font)              size <29.86> substituted on input line 193.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <19.24991> not available
-(Font)              size <20.74> substituted on input line 192.
+(Font)              size <20.74> substituted on input line 193.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <13.75> not available
-(Font)              size <14.4> substituted on input line 192.
+(Font)              size <14.4> substituted on input line 193.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <27.5> not available
-(Font)              size <29.86> substituted on input line 192.
+(Font)              size <29.86> substituted on input line 193.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <19.24991> not available
-(Font)              size <20.74> substituted on input line 192.
+(Font)              size <20.74> substituted on input line 193.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <13.75> not available
-(Font)              size <14.4> substituted on input line 192.
+(Font)              size <14.4> substituted on input line 193.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <27.5> not available
-(Font)              size <29.86> substituted on input line 192.
+(Font)              size <29.86> substituted on input line 193.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <19.24991> not available
-(Font)              size <20.74> substituted on input line 192.
+(Font)              size <20.74> substituted on input line 193.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <13.75> not available
-(Font)              size <14.4> substituted on input line 192.
+(Font)              size <14.4> substituted on input line 193.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <27.5> not available
-(Font)              size <29.86> substituted on input line 192.
+(Font)              size <29.86> substituted on input line 193.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <19.24991> not available
-(Font)              size <20.74> substituted on input line 192.
+(Font)              size <20.74> substituted on input line 193.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <13.75> not available
-(Font)              size <14.4> substituted on input line 192.
+(Font)              size <14.4> substituted on input line 193.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <27.5> not available
-(Font)              size <29.86> substituted on input line 192.
+(Font)              size <29.86> substituted on input line 193.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <19.24991> not available
-(Font)              size <20.74> substituted on input line 192.
+(Font)              size <20.74> substituted on input line 193.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <13.75> not available
-(Font)              size <14.4> substituted on input line 192.
+(Font)              size <14.4> substituted on input line 193.
 
 File: figures/norbornenone-tuning-correct.eps Graphic file (type eps)
 <figures/norbornenone-tuning-correct.eps>
@@ -546,12 +547,12 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 4327 strings out of 493489
- 64283 string characters out of 3146916
- 182669 words of memory out of 3000000
- 7569 multiletter control sequences out of 15000+200000
+ 4353 strings out of 493489
+ 64603 string characters out of 3146916
+ 183772 words of memory out of 3000000
+ 7591 multiletter control sequences out of 15000+200000
  24453 words of font info for 92 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  37i,13n,52p,320b,668s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on poster.dvi (1 page, 17268 bytes).
+Output written on poster.dvi (1 page, 17304 bytes).
